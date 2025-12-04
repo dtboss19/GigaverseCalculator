@@ -1,0 +1,60 @@
+[
+  {
+    "enemy_id": "680d44760a2a6cf8e803b0fa",
+    "enemy_health": 4,
+    "player_health": 16,
+    "player_shield": 6,
+    "player_skills": {
+      "sword_atk": 9,
+      "sword_def": 0,
+      "shield_atk": 0,
+      "shield_def": 4,
+      "spell_atk": 2,
+      "spell_def": 2,
+      "base_hp": 16,
+      "base_armor": 6
+    },
+    "enemy_stats": {
+      "name": "Enemy Room 1",
+      "move_pattern": [4, 0, 0, 4, 2, 2],
+      "sword_atk": 4,
+      "sword_def": 0,
+      "shield_atk": 0,
+      "shield_def": 4,
+      "spell_atk": 2,
+      "spell_def": 2
+    },
+    "round_number": 0,
+    "action_history": [
+      {
+        "round": 0,
+        "player_action": {
+          "type": "attack",
+          "skill": "sword_atk",
+          "damage_dealt": 4,
+          "timestamp": "2024-03-21T10:00:00Z"
+        },
+        "enemy_action": {
+          "type": "attack",
+          "skill": "sword_atk",
+          "damage_dealt": 2,
+          "shield_absorbed": 2,
+          "timestamp": "2024-03-21T10:00:01Z"
+        }
+      }
+    ],
+    "outcome": {
+      "status": "in_progress",
+      "damage_taken": 0,
+      "damage_dealt": 4,
+      "shield_used": 2,
+      "rounds_completed": 1,
+      "final_state": {
+        "player_health": 16,
+        "player_shield": 4,
+        "enemy_health": 0,
+        "next_room": "680d44760a2a6cf8e803b0fb"
+      }
+    }
+  }
+] 
